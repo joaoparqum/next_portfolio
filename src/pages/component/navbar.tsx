@@ -9,10 +9,9 @@ export default function Navbar() {
                 Portfólio
             </div>
             <div className="col p-3 text-end align-self-center">
-                <Link href="" className="link">Sobre mim</Link>
+                <Link href="/home" className="link">Sobre mim</Link>
                 <Link href="/tecnologias" className="link">Tecnologias</Link>
                 <Link href="/projeto" className="link">Projetos</Link>
-                <Link href="" className="link">Contato</Link>
             </div>
           </div>
         </nav>
