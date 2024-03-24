@@ -7,8 +7,9 @@ import Footer from "./component/footer";
 export default function Document() {
   return (
     <Html lang="pt-BR">
-      <Head />
-      <body className="d-flex flex-column min-vh-100">
+      <Head/>
+      <title>Portfólio - João P.</title>
+      <body className="d-flex flex-column min-vh-100 bg-black text-white">
         <Navbar/>
         <Main />
         <NextScript />
