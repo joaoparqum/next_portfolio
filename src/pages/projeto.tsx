@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Projeto from "./component/projeto";
+import Link from "next/link";
 
 export default function Projetos(){
     return(
@@ -31,7 +32,7 @@ export default function Projetos(){
                             <br></br><br></br>
 
                             <section className="section-email bg-dark">
-                                <h2>PROJ. DISPARO DE E-MAILS</h2>
+                                <h2>PROJ. DISPARO DE E-MAILS  - <Link href="https://github.com/joaoparqum/mensageria_rabbitmq" target="_blank"><Image src="/assets/images/github (1).png" alt="link" width={40} height={40}/></Link></h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolvi uma aplicação de comunicação entre microserviços com mensageria para envio de emails usando o Spring AMPQ e RabbitMQ.</p><br></br>
 
@@ -60,7 +61,7 @@ export default function Projetos(){
                             <br></br><br></br>
 
                             <section className="section-form bg-dark">
-                                <h2>FORM BACKEND</h2>
+                                <h2>FORM BACKEND - <Link href="https://github.com/Evertondearas/Form" target="_blank"><Image src="/assets/images/github (1).png" alt="link" width={40} height={40}/></Link></h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Participei de um projeto com meu amigo Everton Araújo (Dev Front-end) no qual eu desenvolvi uma API usando o framework Spring para o Front-end.</p><br></br>
 
@@ -74,7 +75,7 @@ export default function Projetos(){
                             <br></br><br></br>
 
                             <section className="section-kobe bg-dark">
-                                <h2>BIO KOBE BRYANT</h2>
+                                <h2>BIO KOBE BRYANT - <Link href="https://github.com/joaoparqum/projeto_web_joao" target="_blank"><Image src="/assets/images/github (1).png" alt="link" width={40} height={40}/></Link></h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Projeto em que fiz uma prática usando HTML, CSS e JavaScript para construir um website biografico do jogador Kobe Bryant.</p><br></br>
 

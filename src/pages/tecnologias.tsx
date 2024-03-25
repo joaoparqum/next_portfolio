@@ -8,7 +8,7 @@ export default function Tec(){
                             <h1>Tecnologias</h1>
 
                             <br></br>
-                            <p>Eu tenho domínio por essas tecnologias:</p>
+                            <p>Eu tenho domínio por essas tecnologias:</p><br></br>
 
                             <img height="80" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
 
