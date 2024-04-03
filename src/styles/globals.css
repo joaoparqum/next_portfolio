@@ -86,3 +86,16 @@
     padding: 20px;
     text-align: center;
 }
+
+.link-dep{
+    text-decoration: none;
+    color: white;
+}
+
+.tec{
+    width: 90px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}

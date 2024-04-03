@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Projeto from "./component/projeto";
 import Link from "next/link";
+import Button from "./component/button";
 
 export default function Projetos(){
     return(
@@ -32,7 +33,15 @@ export default function Projetos(){
                             <br></br><br></br>
 
                             <section className="section-email bg-dark">
-                                <h2>PROJ. DISPARO DE E-MAILS  - <Link href="https://github.com/joaoparqum/mensageria_rabbitmq" target="_blank"><Image src="/assets/images/github (1).png" alt="link" width={40} height={40}/></Link></h2>
+                                <h2>PROJ. DISPARO DE E-MAILS  - <Link 
+                                        href="https://github.com/joaoparqum/mensageria_rabbitmq" target="_blank">
+                                        <Image 
+                                            src="/assets/images/github (1).png" 
+                                            alt="link" 
+                                            width={40} 
+                                            height={40}/>
+                                    </Link>
+                                </h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolvi uma aplicação de comunicação entre microserviços com mensageria para envio de emails usando o Spring AMPQ e RabbitMQ.</p><br></br>
 
@@ -41,12 +50,21 @@ export default function Projetos(){
                                     alt="email"
                                     width={600}
                                     height={300}
-                                />
+                                /> 
                             </section>
                             <br></br><br></br>
 
                             <section className="section-clean bg-dark">
-                                <h2>CLEAN ARCHITETURE</h2>
+                                <h2>CLEAN ARCHITETURE - <Link 
+                                        href="https://github.com/joaoparqum/clean_architeture" target="_blank">
+                                        <Image 
+                                            src="/assets/images/github (1).png" 
+                                            alt="link" 
+                                            width={40} 
+                                            height={40}
+                                        />
+                                    </Link>
+                                </h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elaborei um sistema de gestão escolar utilizando os princípios da Clean Architecture como padrão de projeto.</p><br></br>
 
@@ -75,7 +93,16 @@ export default function Projetos(){
                             <br></br><br></br>
 
                             <section className="section-kobe bg-dark">
-                                <h2>BIO KOBE BRYANT - <Link href="https://github.com/joaoparqum/projeto_web_joao" target="_blank"><Image src="/assets/images/github (1).png" alt="link" width={40} height={40}/></Link></h2>
+                                <h2>BIO KOBE BRYANT - <div 
+                                    className="btn mx-2 bg-black text-white">
+                                        <Link 
+                                            href={"https://kobe-bio.netlify.app/"} 
+                                            target="_blank" 
+                                            className="link-dep">
+                                                Acesse o projeto
+                                        </Link>
+                                    </div>
+                                </h2>
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Projeto em que fiz uma prática usando HTML, CSS e JavaScript para construir um website biografico do jogador Kobe Bryant.</p><br></br>
 
@@ -84,7 +111,7 @@ export default function Projetos(){
                                     alt="kobe"
                                     width={600}
                                     height={300}
-                                /> 
+                                />
                             </section>   
                         </div>
                     </div>
