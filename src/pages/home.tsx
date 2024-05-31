@@ -23,13 +23,16 @@ export default function Home(){
 
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Reyo é uma empresa de consultoria em TI sediada em Irecê - BA, dedicada a fornecer soluções inovadoras e eficientes para empresas de todos os tamanhos | Site: <Link href="https://reyo.mydurable.com/pt" target="blank" className="link-exp">https://reyo.com.br</Link></p>
 
-                                <p>Tecnologias: <strong>Laravel, React.Js, Git, Docker e RabbitMQ</strong></p>
+                                <p>Tecnologias: <strong>Laravel, React.Js, Git, SOLID, Clean Code, Docker e RabbitMQ</strong></p>
                                 <p>Sou responsável por fazer melhorias no sistema e adicionar novas funcionalidades.</p>
                                 <ul>
+                                    <li>Aplicação dos <strong>Princípios SOLID</strong>, com a aplicação teve melhoria de 40% de segurança no sistema, 25% de redução no tempo de desenvolvimento de novas funcionalidades de upload devido à modularização do código, 30% de redução no tempo gasto para corrigir bugs e adicionar novas funcionalidades devido à melhor organização do código.</li>
+                                    <li>Aplicação de <strong>Clean Code</strong>, o projeto teve seu código limpo e bem documentado para facilitar a manutenção e futuras expansões, interface de usuário intuitiva e código front-end modularizado para melhor manutenção e expansão.</li>
+                                    <li>Aplicação de <strong>CI/CD</strong> usando o GitHub Actions </li>
                                     <li>Desenvolvimento Back-End para gerenciamento de arquivos</li>
                                     <li>Desenvolvimento Front-End para upload de documentos</li>
                                     <li>Aprimoramento e desenvolvimento dos níveis de acesso ao sistema</li>
-                                    <li>Desenvolvimento backend e frontend para gerenciamento de protocolos</li>
+                                    <li>Desenvolvimento Back-end e Front-end para gerenciamento de protocolos</li>
                                 </ul>
                             </section>
                         </div>
